@@ -1,0 +1,11 @@
+html {
+    background-color: black;
+}
+
+.container {
+        padding: 70px 0;
+        border: 13px solid green;
+        text-align: center;
+        width: 250px;
+        height: 250px;
+}
