@@ -155,7 +155,7 @@ nav {
   text-align: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
   .hero__terminal {
     width: 70%;
   }
@@ -176,5 +176,8 @@ nav {
   }
   .keybinding {
     font-size: 0.8rem;
+  }
+  .percenttext {
+    display: none;
   }
 }
