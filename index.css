@@ -155,7 +155,7 @@ nav {
   text-align: center;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 520px) {
   .hero__terminal {
     width: 70%;
   }
