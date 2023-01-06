@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html style="background-color: black; color: white; font-size: 50px; text-align: center;">
+
+<head>
+    <style>
+        .redirect {
+            animation: cssAnimation 0s 1s forwards;
+            visibility: hidden;
+        }
+
+        @keyframes cssAnimation {
+            to {
+                visibility: visible;
+            }
+        }
+    </style>
+
+    <script>
+        function redirect() { location.replace("https://github.com/CraftyPlayz") }
+    </script>
+</head>
+
+<body>
+    <h6>If not redirected automatically please click this button</h6>
+    <button onclick="redirect()">My LinkedIn</button>
+
+    <body onload="redirect()">
+    </body>
+
+</html>

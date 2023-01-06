@@ -1,6 +1,6 @@
 /* nav specialized to landing page */
 .logo {
-  background: url('/images/logo-placeholder-image.png') no-repeat;
+  background: url('/images/Initials.png') no-repeat;
   background-size: contain;
   margin: 1rem 0 0 1rem;
 }
@@ -52,6 +52,7 @@ nav {
 .feature__item {
   max-width: calc(33% - 20px);
   margin: 0 20px 0 0;
+  text-align: center;
 }
 
 .feature__item .section__title {

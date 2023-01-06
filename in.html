@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html style="background-color: black; color: white; font-size: 50px; text-align: center;">
-  <head>
-    <link rel="stylesheet" href="in.css">
-    <meta http-equiv="refresh" content="0; url='https://www.linkedin.com/in/tconnor2003/'" />
-  </head>
-  <body class="redirect">
-    <p>This Should Redirect automatically but if for whatever reason it hasnt then please click on this link</p><a href="https://www.linkedin.com/in/tconnor2003/">My LinkedIn</a>
+
+<head>
+  <style>
+    .redirect {
+      animation: cssAnimation 0s 1s forwards;
+      visibility: hidden;
+    }
+
+    @keyframes cssAnimation {
+      to {
+        visibility: visible;
+      }
+    }
+  </style>
+
+  <script>
+    function redirect() { location.replace("https://www.linkedin.com/in/TConnor2003") }
+  </script>
+
+</head>
+
+<body>
+  <h6>If not redirected automatically please click this button</h6>
+  <button onclick="redirect()">My LinkedIn</button>
+
+  <body onload="redirect()">
   </body>
+
 </html>
