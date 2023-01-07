@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>404 Page not found</title>
+
 </head>
-<body>
-    <h1>document not found</h1>
+
+<body style="text-align: center; background-color: black; color: white;">
+    <h1 style="font-size: 80px;">404</h1>
+    <p id="demo" style="font-size: xx-large;"></p>
+    <button onclick="history.back()">Go Back</button>
+    <script>
+        document.getElementById("demo").innerHTML =
+            "The file: <b>" + window.location.href + "</b> could not be found.";
+    </script>
 </body>
+
 </html>
