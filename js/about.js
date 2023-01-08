@@ -18,6 +18,7 @@ if (document.getElementsByClassName("demo").length > 0) {
     I am currently studying Digtal and IT at Bournemouth and Poole college where i am developing a game using Unreal Engine 5.
     I am also developing a a game showcase website using HTML, CSS and JavaScript. This can be found at tconnor.co.uk/game
     Avid gamer and a Streamer. My Favorite games are: Minecraft, Rocket league, Skyrim and Factorio.
+	I have also helped develop and run a few different minecraft servers ranging from a small survival server to a large skyblock server.
 `;
 	var speed = 5;
 

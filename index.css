@@ -160,25 +160,75 @@ nav {
   .hero__terminal {
     width: 70%;
   }
-  .tab__container > ul {
+
+  .tab__container>ul {
     right: auto;
     left: 0;
     padding-left: 0;
   }
+
   .tab__container .code {
     margin-top: 2rem;
   }
-  .feature, .keybinding, .changelog__item {
+
+  .feature,
+  .keybinding,
+  .changelog__item {
     flex-direction: column;
   }
+
   .feature__item {
     max-width: 100%;
     margin: 0;
   }
+
   .keybinding {
     font-size: 0.8rem;
   }
+
   .percenttext {
     display: none;
   }
+}
+
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
