@@ -31,7 +31,6 @@
   </div>
   <div class="hero__terminal">
     <pre>
-        <!-- Place your demo code here -->
         <code class="shell-session demo"><b>Hi, I'm Tom!</b></code>
       </pre>
   </div>
@@ -57,53 +56,87 @@
           </pre>
       </div>
     </div>
-    <h1 style="text-align: center;">Education</h1>
+    <h1 style="text-align: center;" id="Education">Education</h1>
     <div class="feature">
+
       <div class="feature__item">
         <h3 class="section__title"><a href="https://www.thecollege.co.uk/">Bournemouth and Poole
             College</a><br>September 2021 - Current</h3>
-        <p>Studying Digtal and it Level 3 Diploma on my second year<br><button class="trigger">Covered Units</button></p>
+        <p>Studying Digtal and it Level 3 Diploma on my second year. Also doing work experience with Glow Green. (see
+          below)<br><a class="button" href="#modal1">Units Covered</a></p>
       </div>
+
       <div class="feature__item">
-        <h3 class="section__title">Lorem ipsum dolor sit amet</h3>
-        <p>123123123123<br>123</p>
+        <h3 class="section__title"><a href="https://www.thegrangeschool.com/">The Grange School</a><br>January 2020 -
+          July 2021</h3>
+        <p>Studied English, Maths, Science combined Trilogy, Computer Science, History, Geography<br><a class="button"
+            href="#modal2">GSCE Marks</a></p>
       </div>
+
       <div class="feature__item">
-        <h3 class="section__title">Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.</p>
+        <h3 class="section__title"><a href="https://gloucester-h.schools.nsw.gov.au/">Gloucester High School</a><br>
+          January 2017 - December 2019</h3>
+          <p>Studied English, Maths, Science combined Trilogy, Computer Science, History, Geography</p>
       </div>
     </div>
+
     <h1 style="text-align: center;">Experience</h1>
     <div class="feature">
       <div class="feature__item">
         <h3 class="section__title"><a href="https://glowgreenltd.com/">Glow Green</a><br>October 2022 - Current</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.</p>
+        <p>I am currently doing work experience for Glow Green Where I help maintain both hardware and software. Ranging from repairing broken pcs or troubleshooting network issues for staff.</p>
       </div>
+
       <div class="feature__item">
-        <h3 class="section__title">Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua..</p>
+        <h3 class="section__title"><a href="https://bebras.uk/">Bebras Maths Challenge</a></h3>
+        <p>Took in 2021 and acheieved a distinction Award<br>Final Score was 47 out of 66<br>need to check if it was distinction or merit</p>
       </div>
+
       <div class="feature__item">
         <h3 class="section__title">Lorem ipsum dolor sit amet</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua.</p>
       </div>
     </div>
+
   </div>
   <footer class="footer">Thomas Connor 2022 -
     <script>new Date().getFullYear() > document.write(new Date().getFullYear());</script>
   </footer>
   <script>hljs.initHighlightingOnLoad();</script>
+  <script src="/js/about.js"></script>
 
-
-
-
-
-
-
+  <!--Modals-->
+  <!--BPC Modal-->
+  <div class="popup" id="modal1">
+    <a class="popup__overlay" href="#void"></a>
+    <div class="popup__wrapper">
+      <a class="popup__close" href="#void"><img src="/images/closebutton.png" style="height: 16px;"></a>
+      <h3>Bournemouth and Poole College covered units:</h3>
+      <p><b>Design Software:</b> Adobe Photoshop and Adobe Illustrator</p>
+      <p><b>Specialist Software:</b> Unreal Engine 4 and 5 and 3DS Max</p>
+      <p><b>Video Software:</b> Adobe Premiere Pro and Adobe After Effects</p>
+      <p><b>Website Software:</b> Visual Studio Code, Html, CSS and javascript</p>
+      <p><b>Improving productivity using IT</b></p>
+      <p><b>Developing personal and team effectivness using IT</b></p>
+      <p><b>Understanding the potential of IT</b></p>
+    </div>
+  </div>
+  <!--GSCE Modal-->
+  <div class="popup" id="modal2">
+    <a class="popup__overlay" href="#void"></a>
+    <div class="popup__wrapper">
+      <a class="popup__close" href="#void"><img src="/images/closebutton.png" style="height: 16px;"></a>
+      <h3>The Grange School GSCE Marks:</h3>
+      <p>Combined Science Trilogy - 55</p>
+      <p>Computer Science - 7</p>
+      <p>English Language - 4</p>
+      <p>English Literature - 3</p>
+      <p>Geography - 4</p>
+      <p>History - 4</p>
+      <p>Maths - 5</p>
+    </div>
+  </div>
 
 </body>
 
