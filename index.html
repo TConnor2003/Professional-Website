@@ -8,7 +8,6 @@
   <title>Thomas Connor CV</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
   <link rel="stylesheet" href="/css/global.css">
   <link rel="stylesheet" href="/css/index.css">
   <link rel="icon" href="/images/javascript.png" type="image/x-icon" />
@@ -23,6 +22,9 @@
             class="fa fa-linkedin-square"></i> LinkedIn</a></li>
       <li class="menu__item"><a href="https://github.com/CraftyPlayz" class="link link--dark"><i
             class="fa fa-github"></i> Github</a></li>
+      <!--email-->
+      <li class="menu__item"><a href="mailto:mail@tconnor.co.uk" class="link link--dark"><i class="fa fa-envelope"></i>
+          Email</a></li>
     </ul>
   </nav>
   <div class="hero">
@@ -45,6 +47,7 @@
           <li class="tab" data-tab="gsheets">G Sheets</li>
           <li class="tab" data-tab="gslides">G Slides</li>
           <li class="tab" data-tab="gdocs">G Docs</li>
+          <li class="tab" data-tab="msteams">Microsoft teams</li>
         </ul>
         <pre class="nohighlight code">
             <code class="tab__pane active html"><img src="/images/html5.png" width="50" height="50" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;"><progress value="75" max="100" id="progressBar" style="margin: auto; width: 90%; accent-color: #e34c26 ;"></progress><p class="percenttext">Html 5 (75%)</p></code>
@@ -53,33 +56,42 @@
             <code class="tab__pane gsheets"><img src="/images/gsheets.png" width="50" height="50" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;"><progress value="70" max="100" id="progressBar" style="margin: auto; width: 90%; accent-color: #34A853;"></progress><p class="percenttext">Google Sheets (70%)</p></code>
             <code class="tab__pane gslides"><img src="/images/gslides.png" width="50" height="50" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;"><progress value="85" max="100" id="progressBar" style="margin: auto; width: 90%; accent-color: #F5BB0E;"></progress><p class="percenttext">Google Slides (85%)</p></code>
             <code class="tab__pane gdocs"><img src="/images/gdocs.png" width="50" height="50" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;"><progress value="80" max="100" id="progressBar" style="margin: auto; width: 90%; accent-color: #4285F4;"></progress><p class="percenttext">Google Docs (80%)</p></code>
+            <code class="tab__pane msteams"><img src="/images/msteams.png" width="50" height="50" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;"><progress value="90" max="100" id="progressBar" style="margin: auto; width: 90%; accent-color: #6264A7;"></progress><p class="percenttext">Microsoft Teams (90%)</p></code>
           </pre>
+      </div>
+      <div class="tab__container-mobile">
+        <ul style="list-style-type: none; padding-left: 0px;">
+          <li><img src="/images/html5.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">HTML - 75%</li>
+          <li><img src="/images/css3.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">CSS - 60%</li>
+          <li><img src="/images/javascript.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">JavaScript - 25%</li>
+          <li><img src="/images/gsheets.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">Google Sheets - 70%</li>
+          <li><img src="/images/gslides.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">Google Slides - 85%</li>
+          <li><img src="/images/gdocs.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">Google Docs - 80%</li>
+          <li><img src="/images/msteams.png" width="16" height="16" alt="HTML5 Icon" style="float:left; margin:0 10px 0 0;">Microsoft Teams - 90%</li>
+        </ul>
       </div>
     </div>
     <h1 style="text-align: center;" id="Education">Education</h1>
     <div class="feature">
-
       <div class="feature__item">
         <h3 class="section__title"><a href="https://www.thecollege.co.uk/">Bournemouth and Poole
             College</a><br>September 2021 - Current</h3>
         <p>Studying Digtal and it Level 3 Diploma on my second year. Also doing work experience with Glow Green. (see
           below)<br><a class="button" href="#modal1">Units Covered</a></p>
       </div>
-
       <div class="feature__item">
         <h3 class="section__title"><a href="https://www.thegrangeschool.com/">The Grange School</a><br>January 2020 -
           July 2021</h3>
         <p>Studied English, Maths, Science combined Trilogy, Computer Science, History, Geography<br><a class="button"
             href="#modal2">GSCE Marks</a></p>
       </div>
-
       <div class="feature__item">
         <h3 class="section__title"><a href="https://gloucester-h.schools.nsw.gov.au/">Gloucester High School</a><br>
           January 2017 - December 2019</h3>
-        <p>Studied English, Maths, Science combined Trilogy, Computer Science, History, Geography</p>
+        <p>Studied English, Maths, Science combined Trilogy, Computer Science, History and Geography. Also participated
+          in the <a href="/marsrc">sydney mars rover challenge</a> in 2018</p>
       </div>
     </div>
-
     <h1 style="text-align: center;">Experience</h1>
     <div class="feature">
       <div class="feature__item">
@@ -87,27 +99,40 @@
         <p>I am currently doing work experience for Glow Green Where I help maintain both hardware and software. Ranging
           from repairing broken pcs or troubleshooting network issues for staff.</p>
       </div>
-
+      <div class="feature__item">
+        <h3 class="section__title"><a href="https://protectline.co.uk">Protectline<br></a>March 2022<br></h3>
+        <p>Worked in a team to create a newer and more modern website design.<br>Then participated in presenting the
+          design to a team of staff and recieved feedback on the design</p>
+      </div>
       <div class="feature__item">
         <h3 class="section__title"><a href="https://bebras.uk/">Bebras Maths Challenge</a></h3>
-        <p>Took in 2021 and acheieved a distinction Award<br>Final Score was 47 out of 66<br>need to check if it was
-          distinction or merit</p>
-      </div>
-
-      <div class="feature__item">
-        <h3 class="section__title">Lorem ipsum dolor sit amet</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua.</p>
+        <p>Took the Elite Challenge in 2021 and was awarded a distinction level score.<br>Final Score was 95 out of 120
+        </p>
       </div>
     </div>
-
+    <h1 style="text-align: center;">Hobbies</h1>
+    <div class="feature">
+      <div class="feature__item">
+        <h3 class="section__title"><a href="https://en.wikipedia.org/wiki/Rubik%27s_Cube">Rubik's Cubes</a></h3>
+        <p>I Can solve the 3x3 Rubik's Cube in an average of 45 seconds. The 2x2 in an average of 27 seconds<br>I also
+          have a list of other stranger cubes that i dont play with enough to have averaged my times with them.</p>
+      </div>
+      <div class="feature__item">
+        <h3 class="section__title">Video Games and Streaming</a></h3>
+        <p>I play many different games in my free time with my favourte style of game being sandbox<br>My most played
+          games are: Minecraft, Factorio, Rocket League and Skyrim<br></p>
+      </div>
+      <div class="feature__item">
+        <h3 class="section__title"></h3>
+        <p></p>
+      </div>
+    </div>
   </div>
   <footer class="footer">Thomas Connor 2022 -
     <script>new Date().getFullYear() > document.write(new Date().getFullYear());</script>
   </footer>
   <script>hljs.initHighlightingOnLoad();</script>
   <script src="/js/about.js"></script>
-
   <!--Modals-->
   <!--BPC Modal-->
   <div class="popup" id="modal1">
@@ -124,7 +149,6 @@
       <p><b>Understanding the potential of IT</b></p>
     </div>
   </div>
-
   <!--GSCE Modal-->
   <div class="popup" id="modal2">
     <a class="popup__overlay" href="#void"></a>
@@ -142,7 +166,7 @@
   </div>
 
   <!--Modal title
-  <div class="popup" id="modal3">
+  <div class="popup" id="modal#">
     <a class="popup__overlay" href="#void"></a>
     <div class="popup__wrapper">
       <a class="popup__close" href="#void"><img src="/images/closebutton.png" style="height: 16px;"></a>
