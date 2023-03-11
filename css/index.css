@@ -160,16 +160,13 @@ nav {
   display: none;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 950px) {
   .hero__terminal {
     width: 70%;
     height: 400px;
   }
 
   .tab__container {
-    /*right: auto;
-    left: 0;
-    padding-left: 100px;*/
     display: none;
   }
 
@@ -202,6 +199,13 @@ nav {
   .percenttext {
     display: none;
   }
+}
+
+@media (max-width: 400px) {
+  .hero__terminal {
+      width: 70%;
+      height: 500px;
+    }
 }
 
 .button {
