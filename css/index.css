@@ -204,7 +204,7 @@ nav {
 @media (max-width: 400px) {
   .hero__terminal {
       width: 70%;
-      height: 700;
+      height: 700px;
     }
 }
 
